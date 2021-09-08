@@ -139,13 +139,13 @@ def subir_drive(listasubir,hoja,name):
 
 #id y token de cuentas
 #comercio,p21,correo,bocon,ojo,trome,depor
-a = [['17841401810950570', 'EAAfj47wzha8BADZCAuYLkqj2RxqPXslfYVpQshtZBQvDV3Sb27ZAUd7s15WzqXasbWci7ZAZBilATZBCtgqjPrRidCZA04lOrOza6A0vCuceJccVWdrMy4O7Gb89mYvZA8KsOCpujW19U4vhe33Ly7euZCj9iFdodbV7nCAS9ytBxDexjZBN98yLNTi2Q9T9H3rs6wrLTL9NRD0QZDZD'], 
-     ['17841400118433671', 'EAAfj47wzha8BACYb7lQZBkgazpDPWIKKe2eg3gh27jTTlqSzbt4TVMlBRFn5pyPnIbHpc7sSJjEaYO0dmQ1ZBvTypRn6buqEMElbl8D6lHEQBG0tppV5xr8uH4ch0C03Cc9ZBumhKWRAYZASh03I1mMWp81muwqBzpRkq7KT2nlE5xYy9xCK9OKJJCC8ZBZCcC7Navx2GYCAZDZD'],
-     ['17841402209037198', 'EAAfj47wzha8BAEnQ2aQGmNNZBodUCGm6WgNVIaUCp35YJSWL8ivOJaQC4bWbap0Ky408RanahBURqkOrFy4FGjRZCwzHpMZBZCQpzvNllD7QMthr87ZATiTZCwj6PZAXf3Xog08nRmTSVpt9HB2rMLJMSOfUkoO8vWgvCZBio10FHxzb6l9oEfMzkCs7WUDWqlD49vHQxmNpJQZDZD'],
-     ['17841402218427177', 'EAAfj47wzha8BAOJiIOZAykwkXBvkvFdsomGGhPsxZAeQvoOvGVj28AhL1128c2LpFvRj5NYq989av2OGZCdllDaww0ZBuuIE2ZCPNr7MDIDAoMDFAbZCiaPIwPmrjZCZAS3JTIZBg65R6CTm7hyyAccUPDoTFts2pCZADPZAnv5UD4IPvLshY6zFxbB9Jna10dZAtXg7CVByb7f91gZDZD'],
-     ['17841402262227176', 'EAAfj47wzha8BAOJiIOZAykwkXBvkvFdsomGGhPsxZAeQvoOvGVj28AhL1128c2LpFvRj5NYq989av2OGZCdllDaww0ZBuuIE2ZCPNr7MDIDAoMDFAbZCiaPIwPmrjZCZAS3JTIZBg65R6CTm7hyyAccUPDoTFts2pCZADPZAnv5UD4IPvLshY6zFxbB9Jna10dZAtXg7CVByb7f91gZDZD'],
-     ['17841403402984824', 'EAAfj47wzha8BABEy0ZBvtHQKl82tfi648MO4KEXau9E2orJIDBoCBzi3Hk0aysvSZCRSolpwjQ9LlToxl5nF4VXsgln77SiWV4YfMiTPv05FU6eAZB1r35Bl0awAglyVnlKPlRwgvegTYe3ZCPVqKzWev6F1ZAVH9kpTZAUXgynpNx2LMCu0awNe5z0eLIcXr15OdR7yZCiywZDZD'],
-     ['17841401572678380', 'EAAfj47wzha8BAFOkocul9e1cZBaDeDxSJGRIDDveZCnDzHyZAbF0vZBd5twKhZC7QGvKu7bnbSYpWWGCZAFzivzvOlfzUXfXQ6DOJQjgIWdGUZCxrgZBsKAgbD5Kcy5XFRvwbnNN3DRJy7D7Ku5FwVMpfgECodlqp8D9wlqXbjLYQquMKZA2j9JBzLLBwbcEebGUESJxHMum8FQZDZD']]
+a = [['17841401810950570', 'EAAfj47wzha8BAIq0pKJYzCjvwEgPeVKhsAGWZCrTIXENRKiMA2J2I7RnQEBrBO3OCnRAL8M3wuAH9m3vn0vxUIZAF5l7GeqKAZCVEoogHpZC2fddi7eokSfO89JUEwEdb2ZCnn2lJa9ZCuZAg7h1nCyIAkpot5vxnEWYVgHqJKMfD2bhqmZAMGZBzZBVUnm4x6IGOa92ZAeg44KUQZDZD'], 
+     ['17841400118433671', 'EAAfj47wzha8BAINQ7yp9AHqLHJuX4LqMwMOxX2o691VXBsFm2trJBQpfpiaz0Mosrl9NCEoxQNa6lCiB5mn75vBCJbWcnK0bgbPMWXnR4xBOZCwTKLYjM51dZCPGWyZB4yVrJUUbvK7ziZCT6agsp9ciyxDnVgbqUI4q4LEhfCOw7AUQniah4HQMuCGis2mWsGd0MKrwaQZDZD'],
+     ['17841402209037198', 'EAAfj47wzha8BADKlCmDezr78DOze88KZBkihGPDV5iwUBViNFU2AYFGK51pRZAaGMr2jXZCUDCcjTIXZBN8tzlNKhZCJwdPVZAopp2tn6DwuVgvGMZAGHYn0XL0KkoZC6ueEs8uHg4hVYdTfhrCxSGyZBuZAkfI3A2nKrFr5UqDIIrM80iuxmAxPiKXTgfjRKiCejtLziNdQlEUwZDZD'],
+     ['17841402218427177', 'EAAfj47wzha8BAJ5SQuP1tJR9tZAy7pqMXxGmJ2xAymYn3L4cQ3da4FbkpgbrjZAm0yiHW4EzpshWIiogxPFRxoPZBPEc88YZAlct0wH1ixzXFY7i9wZAwEYkKyNUatKvcQKpCSFcZCuvKqySboJwZAFPziQyVtloNjHT4ZBtxeZCRG1UVPGu2ht1zwNO7N9lfs2unpO6njOZCbLQZDZD'],
+     ['17841402262227176', 'EAAfj47wzha8BAPqdHwKba5sImwb5rJxzQU9cBukrstAjBCa0bSvwYiCxaMZASuiZBRSwgj3oh8exhUxxCockempT7PbixELtbSxDNZA8bXCjmIB6oiXzWK6yskwym2m2RkCQeCItxPigjaT0z9pLHU0ldm4phsRW2yabCj59pgP1Vi7Oa1I1Fgys7x2AH38ZCfGpCtd9kQZDZD'],
+     ['17841403402984824', 'EAAfj47wzha8BADDXPzcJmPXkqWU3ZBR0QwrkJbU3x4C2egKbFZCJHfLsj742z6CCyCZAahAMEh2kPiI0ELZAvg9ITquZCqTLSf5bbWfJOC86OqYGldZAbvN8iDMKW47YNk0peaM8k0w27d4TIZB89ET1FgTXGwhOOP4a77eW0xr79AuxCWtHpi7e79xKUjuaeEl2ala2kwsbAZDZD'],
+     ['17841401572678380', 'EAAfj47wzha8BAMZCIZBQCTW4fF9HUdq8x8ljfvkX04ySzFVsBIjjrIpP8Tnm55J2lThJEyOTBXX0rOx8HpKOsuePuA2aYXZAkGJo7Y8BSvZBOWqfcHZCzZBZCFif0D5tLyVeAWdelZCTEPmqv7yyrRUVnLZBhijKLKIKaYbLPnZApbq0nsXAEEtyZB3DkTurTdKfYaIZB7aEfBNmaAZDZD']]
 # id_com=""
 # token_com=""
 # id_p21=""
@@ -602,7 +602,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='1p-GZQzMCw35GshsbECCw9MOK_iUb70e0-519u4hYgHA'
+        hoja='1L1rN5bZ737awTNAoUrGjBq5CW1YftgtOrM6-pXGjWgY'
         subir_drive(listapub, hoja, name)
                 
     
@@ -659,7 +659,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='14j_GGSotF_JZh7ZDKDAo3jrq7FXQOaX5bFF-qVIzCt0'
+        hoja='1dC8ej9BYzURW1vd67wVZlEFAeFa8J1n0ScJrr4epqkg'
         subir_drive(listapub, hoja, name)
         
     if i==2:
@@ -715,7 +715,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='1_gtBu5qcJf3DFE6RVI02K0-J-hmfELIujtVjxKWnexg'
+        hoja='1qtZPNmuMkmtXvNyGsGFwitMLY8a1PGauOypqBrTl7Jo'
         subir_drive(listapub, hoja, name)
     
     if i==3:
@@ -772,7 +772,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='13YgjNaNAA-vXgd3_VQvOmPmZSROyjWFbcjNU3GpwH1Y'
+        hoja='1TZYCF5TM1GrepRUO0mlbQXmUtM8wYpv6v8U4Pb9xHzE'
         subir_drive(listapub, hoja, name)
     
     if i==4:
@@ -828,7 +828,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='1vI2bqcIrYs0dgIQWPpvu90H1rdrrlQa8cjViziSEH50'
+        hoja='1h_Cj1hmI7WyUh_6GuV3tm9HBAgG1bHXuBPv2fvksc-g'
         subir_drive(listapub, hoja, name)
     
     if i==5:
@@ -884,7 +884,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='1GOvsevHz1fXYmDAssQQOKuNPpGYnEAk0v0OBwtLxXhA'
+        hoja='1AhR7ONesEUpJZG0MII3FTbmAm3_9xcMCQBDTsLe7EjA'
         subir_drive(listapub, hoja, name)
     
     if i==6:
@@ -941,7 +941,7 @@ while i <= 6 :
                 break
         listapub=[]
         listapub=[listaReach]
-        hoja='1NRm55tJa6hm4mke9BSVlCR4wAZrR3F0EA8C0HjMPpM0'
+        hoja='15aKb5EzzIcl2iPB4Co4qw-Mw9fSU1DD_lOgy_K9eMp4'
         subir_drive(listapub, hoja, name)
     i+=1                   
                                      
